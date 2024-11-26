@@ -1,0 +1,33 @@
+This is the Componenets of Worker and Maaster Node
+
+
+Componenets of Worker Node:
+
+Kubelet:
+1: You make the pod similar to the Docker container , Kubelet is responsible for pod, IT will check pod is running or not , when pod is not running it will say check pod is not tunning
+
+container-runtime:
+2:  It is used to run the container  by using  container runtime , crio , containerd but in docker it use only docker shim
+
+Kube-proxy:
+3:  Kube proxy provide networking in Kubernetes like ip adreesses, load balancer
+
+Componenets of Master Node:
+
+API server
+The core componenet of kubernets is API server, it is peresent in MAster node
+
+What is the Purpose of the API server:
+IT is  bascially exposese the kuberetes to the external world
+
+Scheduler:
+it is responsible for the sechudling your pods or sechudling you resoruces on Kubernetes
+
+ETCD:
+IT is basically acts a backup service , key value store and entire kubernetes store information, When you have restrore a cluster
+
+Controller Manager:
+There are many controllers in Kubernetes like Replica set and there has to be a program and there has a comopnent which ensure that controllers are running this is called controller Manager.
+
+Cloud Controler Manager:
+IT means like if i make the cloud which name is adeel and so we write the logic in CCM and this is not use in on premises
