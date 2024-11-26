@@ -1,0 +1,26 @@
+Install minikube on local:
+
+https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download
+
+Install kubectl on local:
+
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-kubectl-binary-with-curl-on-linux
+
+Kubernets have 4 benefits:
+
+1: Cluster
+2: Scaling
+3: Healing
+4: Enterprise
+
+What is Pod:
+
+Pod is a single and multiple container, pod is similar like the docker container, but the minor diffenret is you will write the yaml file and in yaml file you write the specification of the pod.
+
+IF you put group of contianers in one single pod then kuberntes allow you shared networking , shared storage, the pod make the life easy of devops Engineer
+
+Kubectl :
+It is the command line like the docker cli
+
+Minikube:
+It is the command line like the docker cli
