@@ -1,0 +1,32 @@
+Services:
+
+Why do we need Service:
+
+No Service: IF you have not like if your one pod is kill so deployment automatically auto heal the pod but the new pod ip has changed
+With Service: IF pod is down so the service give the url weher the user access easily
+
+Service act as a load balancer
+
+What is the Ideal pod count:
+
+IT is no of current user one replica of your application  handle
+
+1: Load Balancing:
+
+2: Service Discovery:
+
+It using lables and seletors like if you have 3 pods so developer label it give the name to the pod name is payment so when one pod is down it will auto heal the pod ip is change but  it will make the new pod with the name payment with same yaml file.
+
+3: Service Expose to world:
+
+Three Types of Service:
+1: Cluster IP -- > Acces inside the cluster
+2: Nodeport-->   Allow to your application to access inside  in your organization
+3: Load balancer--> IT will expose your application to the world
+
+IF you make load balacncer service in minikube so we will use ignress
+
+In AWS We will use these type service:
+
+Making EKS and IT have Elastic load balancer which mean it has publich ip address  whihc componet doing this in kubernetes which name is CCM(Cloud Control Manager)
+
