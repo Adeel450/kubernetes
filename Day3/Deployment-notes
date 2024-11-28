@@ -1,0 +1,34 @@
+Q; What is the Differnce between contaienr,Pod and Deploy
+
+Container:
+
+You make the container on docker, so you run the container by this command like docker run -d -p --name contianer -v --network 
+
+Pod:
+You run the container , to write the all things in the yaml file
+A pod be a single or multiple container
+Pod will not have specification Auto Healing and Auto Scaling
+
+Interview Question:
+
+What is the Purpose of Deployment:
+
+IT makes the also Pod but firstly It will create Replica Set and Replica Set is a Controller then it make the Pod and also we write in the Yaml manifest
+
+
+
+ There are benefits in deployment:
+1: Auto Healing IF you set 2 replica set so it have 2 controller
+2: Auto Scaling
+
+Controler:
+Actual state is always same as desire sate so it is known as Controller, There are aslo default and custom Controller
+Golang language which will ensure that a specific behaviour is implemented
+
+What is Deiifence between Deployment and Replicaset?
+
+Replicaset is basically a Controller if pod is killed so replica controller say it will auto heal the pod
+When you make the Deployment the replica set is making automatically
+
+
+
