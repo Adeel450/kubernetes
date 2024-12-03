@@ -1,0 +1,23 @@
+
+Problems without ignress:
+1: Enterprise Loadbalacner:
+
+This is ratiobased and this is sticky session and path domain and also white listing, black listing,TLs load balancing
+
+2: Load balancer:
+ Cloud provider will charge you if you want 
+
+
+The load balancer types services was good but it will missing the capabilities the cloud provider will charge you for  each an every load balancer because it give statis ip address.
+
+Ingress:
+IT is load balancer and API gateway, which load balacner they want
+for example you creating a pod  the kubelet is deploy a pod and if you make service the kube-proxy watching the ip tables, and if  you make ingress so the resource controller watch this. 
+
+There are many load balacers in market like nginx, f5, ambasdeers
+
+
+User will create ignress resource and the load balacnig companies like nginx f5 and they wil create own ignress controller and it is present on the github and it will give how you install by the helm 
+
+IF you make the service load balancing type on the Cloud so it charge is very high, so that;s why we use Ingress controller
+
